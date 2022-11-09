@@ -1,0 +1,16 @@
+# ALIGN: Analog Layout, Intelligently Generated from Netlists
+
+The goal of ALIGN (Analog Layout, Intelligently Generated from Netlists) is to automatically translate an unannotated (or partially annotated) SPICE netlist of an analog circuit to a GDSII layout.
+
+** The Auxilary cell of any design is generate through the ALIGN tool
+
+## Inputs
+
+* SPICE netlist  
+* SKY130 PDK
+
+## Outputs
+
+* Design JSON: Final layout in JSON form which can be viewed using the ALIGN Viewer.
+* Layout GDS: Final layout of the design. The output GDS can be imported into any GDSII viewer.
+
