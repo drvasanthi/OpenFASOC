@@ -60,6 +60,11 @@ $ pip install -v --no-build-isolation -e . --no-deps --install-option='-DBUILD_T
 ```
 git clone https://github.com/ALIGN-analoglayout/ALIGN-pdk-sky130  
 ```
+
+## Output Database:
+
+* [CDL](https://github.com/Bandaanusha/OPENFASOC/blob/main/Aux_cell_generator_outputs.md)
+* [GDS, LEF](https://github.com/DebanganaMukherjee/OpenFASOC/blob/main/AUXCELL_GENERATOR_OUTPUTS.md)
   
 ### The outputs generated from aux_cell is given to ver_dir as an input.
 
