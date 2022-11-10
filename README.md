@@ -6,7 +6,7 @@ The goal of ALIGN (Analog Layout, Intelligently Generated from Netlists) is to a
 
 **The Auxilary cell of any design is generate through the ALIGN tool**
 
-![Capture](https://user-images.githubusercontent.com/67214592/200850964-529ae178-6405-4d19-9535-bcdda6fff54c.PNG)
+![image](https://user-images.githubusercontent.com/67214592/201029622-8a8e54db-fd87-4f43-8a7b-5596a1145e4f.png)
 
 ## Inputs
 
