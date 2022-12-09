@@ -1,4 +1,58 @@
-# Stage I - AUXILIARY CELL GENERATION
+# OpenFASoC
+
+**OpenFASoC: Fully Open-Source Autonomous SoC Synthesis using Customizable Cell-Based Synthesizable Analog Circuits**
+
+OpenFASOC is focused on open-source automate analog generation from user specification to GDSII with fully open-sourced tools.
+This project is led by a team of researchers at the University of Michigan is inspired from FASoC whcih sits on proprietary tools. (See more about FaSoC at [website](https://fasoc.engin.umich.edu)
+
+Prerequisites
+****************
+
+1. Yosys for logic synthesis
+2. Openroad for placing and routing
+3. Klayout to produce the final GDS file
+4. Magic for DRC and LVS checks as well as PEX
+5. Ngspice for simulation
+
+## Manual Installation
+
+> Step 1 - Git clone fasoc repo
+
+```
+$  git clone https://github.com/idea-fasoc/openfasoc  
+```
+
+> Step 2 - Go to the root directory of the repo and install all required Python libraries using:
+
+```
+pip install -r requirements.txt  
+```
+
+> Step 3 - Using Conda
+
+OpenFASoC's dependencies can be very easily installed if you're using a Conda environment. If you're not, start by [installing Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html)
+
+```
+$ conda create --name "openfasoc" python=3.8  
+$ conda activate openfasoc  
+```
+
+# Example - Design Flow of Temperatore Sensor Generator
+
+This generator creates a compact mixed-signal temperature sensor based on the topology from [this paper](https://ieeexplore.ieee.org/document/9816083). It consists of a ring oscillator whose frequency is controlled by the voltage drop over a MOSFET operating in subthreshold regime, where its dependency on temperature is exponential.
+
+![image](https://user-images.githubusercontent.com/67214592/206749704-9e007c56-7f9a-4f43-9a9a-00df8e8d6a34.png)
+
+  Block diagram of the temperature sensor’s circuit
+
+The physical implementation of the analog blocks in the circuit is done using two manually designed standard cells (Auxiliary Cell):
+
+* HEADER cell, containing the transistors in subthreshold operation;
+* SLC cell, containing the Split-Control Level Converter.
+
+![image](https://user-images.githubusercontent.com/67214592/206750794-8dac8329-4d50-48f4-aea0-58c8cc5a5804.png)
+
+#Stage I - AUXILIARY CELL GENERATION
 
 # ALIGN: Analog Layout, Intelligently Generated from Netlists
 
@@ -60,6 +114,7 @@ $ pip install -v --no-build-isolation -e . --no-deps --install-option='-DBUILD_T
 ```
 git clone https://github.com/ALIGN-analoglayout/ALIGN-pdk-sky130  
 ```
+
 
 ## Output Database:
 
