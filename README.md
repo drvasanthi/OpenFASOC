@@ -124,3 +124,21 @@ git clone https://github.com/ALIGN-analoglayout/ALIGN-pdk-sky130
 ### The outputs generated from aux_cell is given to ver_dir as an input.
 
 https://github.com/mahati-basavaraju/openFasoc_Flow.git
+
+## Contributer
+
+  * Vasanthi D R
+
+## Acknowledgement
+  
+  * Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+  * Madhav Rao, Professor, IIIT-Bangalore.
+  * Nanditha Rao, Professor, IIIT-Bangalore.
+
+## Contact Information
+
+  * Vasanthi D R, PhD Scholar, International Institute of Information Technology, Bangalore vasanthidr11@gmail.com
+  * Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
+  * Madhav Rao, Professor, IIIT-Bangalore. mr@iiitb.ac.in
+  * Nanditha Rao, Professor, IIIT-Bangalore. nanditha.rao@iiitb.ac.in
+  
