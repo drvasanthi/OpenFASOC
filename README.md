@@ -5,7 +5,7 @@
 OpenFASOC is focused on open-source automate analog generation from user specification to GDSII with fully open-sourced tools.
 This project is led by a team of researchers at the University of Michigan is inspired from FASoC whcih sits on proprietary tools. (See more about FaSoC at [website](https://fasoc.engin.umich.edu)
 
-Prerequisites
+Pre-requisites
 ****************
 
 1. Yosys for logic synthesis
