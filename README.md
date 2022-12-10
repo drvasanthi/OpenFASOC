@@ -62,13 +62,25 @@ Step 2 - Logic Synthesis
 
 ![image](https://user-images.githubusercontent.com/67214592/206842918-290e54aa-e639-45cc-bc36-8cf998674883.png)
 
+![image](https://user-images.githubusercontent.com/67214592/206843915-d6bf5bcf-2619-419a-9dca-a466f37ac443.png)
+
 Step 3: Automatic Place and Route - Floorplan
 
 ![image](https://user-images.githubusercontent.com/67214592/206843093-7e9f3cd4-c0d6-48f0-b647-fd1bff389223.png)
 
+![image](https://user-images.githubusercontent.com/67214592/206843964-31490288-97be-4717-a41e-d18b66ede239.png)
+
+![image](https://user-images.githubusercontent.com/67214592/206843977-a54586b0-c2e5-4d26-a2f3-227ddda2e427.png)
+
+![image](https://user-images.githubusercontent.com/67214592/206843990-02e37d57-37db-476a-999d-fd90dbeaa4fd.png)
+
 Step 4: Placement
 
 ![image](https://user-images.githubusercontent.com/67214592/206843156-492a899a-f2d2-4c37-815a-9b752e09c140.png)
+
+![image](https://user-images.githubusercontent.com/67214592/206844048-f6bf532f-3f48-43b3-91ba-c8ad82e651d8.png)
+
+![image](https://user-images.githubusercontent.com/67214592/206844055-6f0cecee-aa31-4746-a856-407e47c78469.png)
 
 Step 5: CTS
 
@@ -78,11 +90,17 @@ Step 6: Routing
 
 ![image](https://user-images.githubusercontent.com/67214592/206843179-0f20b92c-fb8b-450b-be18-8efae35f2a48.png)
 
+![image](https://user-images.githubusercontent.com/67214592/206844281-cd562a32-4044-44f4-bcb6-35b4bf357672.png)
+
+![image](https://user-images.githubusercontent.com/67214592/206844365-b987a8ee-3d66-4140-9294-f5dfe2adee38.png)
+
 Step 7: DRC and LVS
 
 ![image](https://user-images.githubusercontent.com/67214592/206843191-5f0a5d32-2b88-4d9d-a173-f611938938ac.png)
 
 ![image](https://user-images.githubusercontent.com/67214592/206843201-5e1b0cb9-5a71-4ce9-9d01-873f47a20080.png)
+
+![image](https://user-images.githubusercontent.com/67214592/206845588-67cf164d-93ba-48ee-a93c-6ea683550441.png)
 
 # Stage I - AUXILIARY CELL GENERATION
 
