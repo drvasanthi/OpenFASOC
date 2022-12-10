@@ -39,7 +39,7 @@ Step 2: Layout View
 
 ![image](https://user-images.githubusercontent.com/67214592/206759351-ad0a2b41-087d-4958-ba81-3ce07206561c.png)
 
-# ISSUES
+# FUTURE WORK
 
 1. Pre-layout simulation is not matching with Post-layout simulation.  
 2. ALIGN PDK are been used in the design, this encounters an issue at OpenFasoc.
