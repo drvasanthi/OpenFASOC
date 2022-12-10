@@ -8,11 +8,11 @@ This project is led by a team of researchers at the University of Michigan is in
 Pre-requisites
 ****************
 
-1. Yosys for logic synthesis
-2. Openroad for placing and routing
-3. Klayout to produce the final GDS file
-4. Magic for DRC and LVS checks as well as PEX
-5. Ngspice for simulation
+1. `Yosys` for logic synthesis
+2. `Openroad` for placing and routing
+3. `Klayout` to produce the final GDS file
+4. `Magic` for DRC and LVS checks as well as PEX
+5. `Ngspice` for simulation
 
 ## Manual Installation
 
