@@ -52,7 +52,39 @@ The physical implementation of the analog blocks in the circuit is done using tw
 
 ![image](https://user-images.githubusercontent.com/67214592/206750794-8dac8329-4d50-48f4-aea0-58c8cc5a5804.png)
 
-#Stage I - AUXILIARY CELL GENERATION
+Step 1 - Understanding Input
+
+![image](https://user-images.githubusercontent.com/67214592/206842807-611c2d3d-b86c-4b49-8f45-5b5b9a21ac5f.png)
+
+![image](https://user-images.githubusercontent.com/67214592/206842888-bf185015-b080-493e-9a70-b97964ce95f9.png)
+
+Step 2 - Logic Synthesis
+
+![image](https://user-images.githubusercontent.com/67214592/206842918-290e54aa-e639-45cc-bc36-8cf998674883.png)
+
+Step 3: Automatic Place and Route - Floorplan
+
+![image](https://user-images.githubusercontent.com/67214592/206843093-7e9f3cd4-c0d6-48f0-b647-fd1bff389223.png)
+
+Step 4: Placement
+
+![image](https://user-images.githubusercontent.com/67214592/206843156-492a899a-f2d2-4c37-815a-9b752e09c140.png)
+
+Step 5: CTS
+
+![image](https://user-images.githubusercontent.com/67214592/206843168-a03df1dc-e6cc-4c8f-b9ff-a6f5edb1145f.png)
+
+Step 6: Routing
+
+![image](https://user-images.githubusercontent.com/67214592/206843179-0f20b92c-fb8b-450b-be18-8efae35f2a48.png)
+
+Step 7: DRC and LVS
+
+![image](https://user-images.githubusercontent.com/67214592/206843191-5f0a5d32-2b88-4d9d-a173-f611938938ac.png)
+
+![image](https://user-images.githubusercontent.com/67214592/206843201-5e1b0cb9-5a71-4ce9-9d01-873f47a20080.png)
+
+# Stage I - AUXILIARY CELL GENERATION
 
 # ALIGN: Analog Layout, Intelligently Generated from Netlists
 
