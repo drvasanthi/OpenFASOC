@@ -3,7 +3,7 @@
 **OpenFASoC: Fully Open-Source Autonomous SoC Synthesis using Customizable Cell-Based Synthesizable Analog Circuits**
 
 OpenFASOC is focused on open-source automate analog generation from user specification to GDSII with fully open-sourced tools.
-This project is led by a team of researchers at the University of Michigan is inspired from FASoC whcih sits on proprietary tools. (See more about FaSoC at [website](https://fasoc.engin.umich.edu)
+This project is led by a team of researchers at the University of Michigan is inspired from FASoC whcih sits on proprietary tools. See more about FASoC at [website](https://fasoc.engin.umich.edu)
 
 Pre-requisites
 ****************
