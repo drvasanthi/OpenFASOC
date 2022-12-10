@@ -150,7 +150,7 @@ git clone https://github.com/ALIGN-analoglayout/ALIGN-pdk-sky130
 
 ## Output Database:
 
-* [GDS, LEF](https://github.com/DebanganaMukherjee/OpenFASOC/blob/main/AUXCELL_GENERATOR_OUTPUTS.md)
+* GDS, LEF
   
 ### The outputs generated from aux_cell is given to ver_dir as an input.
 
